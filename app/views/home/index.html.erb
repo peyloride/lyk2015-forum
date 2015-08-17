@@ -1,3 +1,7 @@
+<%= image_tag current_user.avatar.url %>
+
 <%= link_to "New Topic", new_topic_path %>
 <%= link_to "Sign Out", destroy_user_session_path, method: :delete %>
 <%= link_to "Profile", users_edit_profile_path %>
+
+
